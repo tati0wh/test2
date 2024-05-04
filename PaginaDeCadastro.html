@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta chartset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document </title>
+    </head>
+    <body>
+    <center>
+        <style>font-family: 'Pacifico', cursive;</style>
+        <form action="#" method ="post">
+            <fieldset><Legend>Cadastro</Legend>
+
+                <p>Escolha uma imagem de perfil:</p>
+                <input type="file" id="imagem" name="imagem" accept="image/*"><br> <br>
+                Usuário:<input type="text" value="" readonly name="Nome_de_usuario"> <br> <br>
+                CPF:<input type="text"autofocus> <br><br>
+                Gênero: <input type="radio" name="Gênero" value="H"> Masculino
+                <input type="radio" name="Gênero" value="F"> Feminino
+                <input type="radio" name="Gênero" value="O"> Outros <br><br>
+                Data de nascimento:<input type="date" id="data" name="data"><br><br>
+        
+                Estado:<select name="estado" id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select><br><br>
+
+                <legend>Primeiro vez no site? </legend><br>
+                <input type="checkbox" name="binario"> Sim <br>
+                <input type="checkbox" name="binario"> Não <br>
+    
+                </Form></legend><br>
+
+                Qual cor você quer na sua página? Selecione: <br><br> <input type="Color"><br><br>
+                Qual a sua expectativa salarial? R$ <input type="number" min="0" max="10000" step="500"><br><br>
+
+                Senha: <input type="password" > <br> <br>
+
+                <p>Sugestões, comentários, reclamações:</p>
+                <textarea name="" id="" cols="30" rows="5"></textarea> <br> <br>
+                <input type="submit" value="Enviar" style="width: 300px; background-color: pink;"> <br><br>
+                <input type="reset" value="Limpar formulário" style="width: 300px; background-color: pink;">
+            </fieldset>
+    </body>
+</center>
+</html>
